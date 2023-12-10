@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Random;
-public class Main {
+public class WatchBilibili {
     public static double genurate(int mean,int std,int min,int max,int mmin,int mmax) {
         double num= clamp(mean + std * new Random().nextGaussian(), min, max);
         if(num>mmin&&num<mmax){
