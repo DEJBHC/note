@@ -33,7 +33,9 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
+/**
+ * 回顾Java学习过程，没有写主方法
+ */
 public abstract class Java8 {
 
     /**
