@@ -36,7 +36,7 @@ public class WatchVideo {
     /**
      * 随机刷短视频
      */
-    public static void swip() throws Exception() {
+    public static void swip() throws Exception {
         double x1=genurate(600,200,200,1000,0,1080);
         double y1=genurate(2050,150,1800,2300,0,2376);
         double x2=genurate(x1,x1+50,x1-100,x1+100,0,1080);
