@@ -68,22 +68,6 @@ public class WatchVideo {
             System.out.println(z*1000);
             Thread.sleep((long)z*1000);
         }
-
-        /*try {
-            for (int i = 0; i < 3; i++) {
-                double x=new Random().nextDouble()*1080;
-                double y=new Random().nextDouble()*1057+684;
-                System.out.println(x);
-                System.out.println(x);
-                var cmd="adb shell input tap 683 955";
-
-                Thread.sleep(888888);
-            }
-        }catch(IOException e){
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }*/
     }
 
     private static void doCmd(String cmd) throws Exception {
